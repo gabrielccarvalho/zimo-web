@@ -20,7 +20,7 @@ export function LiveDemo() {
         </div>
 
         <div className="relative">
-          <video src="/zimo-conversation.mp4" className="w-6/10 mx-auto h-auto object-cover rounded-xl" autoPlay muted loop />
+          <video src="https://svst9c3kbkbozbwb.public.blob.vercel-storage.com/zimo-conversation.MP4" className="w-6/10 mx-auto h-auto object-cover rounded-xl" autoPlay muted loop />
         </div>
       </article>
     </section>
