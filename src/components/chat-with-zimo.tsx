@@ -7,9 +7,11 @@ export function ChatWithZimo() {
   return (
     <section className="p-4 py-12 overflow-x-hidden">
       <div className="max-w-screen-lg mx-auto p-6 flex flex-col gap-6 items-center justify-center rounded-xl mesh-gradient-center">
-        <GlareCard className="flex flex-col items-center justify-center">
-          <Image src="/zimo-qr.svg" alt="Zimo" width={150} height={150} className="aspect-square" />
-        </GlareCard>
+          <a href="https://wa.me/5584994095071" target="_blank" rel="noopener noreferrer">
+            <GlareCard className="flex flex-col items-center justify-center">
+              <Image src="/zimo-qr.svg" alt="Zimo" width={150} height={150} className="aspect-square" />
+            </GlareCard>
+          </a>
 
       <div className="flex flex-col gap-4 w-full items-center justify-center max-w-md mx-auto">
           <h3 className="text-4xl font-medium  leading-relaxed">
