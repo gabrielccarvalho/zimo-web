@@ -5,7 +5,7 @@ import { GlareCard } from "./aceternity/glare-card";
 
 export function ChatWithZimo() {
   return (
-    <section className="p-4 py-12">
+    <section className="p-4 py-12 overflow-x-hidden">
       <div className="max-w-screen-lg mx-auto p-6 flex flex-col gap-6 items-center justify-center rounded-xl mesh-gradient-center">
         <GlareCard className="flex flex-col items-center justify-center">
           <Image src="/zimo-qr.svg" alt="Zimo" width={150} height={150} className="aspect-square" />

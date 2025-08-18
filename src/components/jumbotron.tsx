@@ -19,7 +19,7 @@ export function Jumbotron() {
             draggable={false}
             className="rounded-xl aspect-video object-cover object-top"
           />
-          <div className="md:absolute select-text md:shadow-2xl left-10 bottom-10 rounded-4xl md:bg-accent/60 flex flex-col p-6 justify-center text-start text-4xl font-medium leading-tight">
+          <div className="md:absolute select-text md:shadow-2xl left-10 bottom-10 rounded-4xl md:bg-accent/60 flex flex-col md:p-6 py-6 justify-center text-start text-3xl font-medium leading-tight">
             <span>Tenha o controle</span>
             <span className="inline-flex items-center gap-2">
               dos seus
